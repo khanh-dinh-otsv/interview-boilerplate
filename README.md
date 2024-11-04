@@ -2,7 +2,7 @@
 ## Requirements:
 ### Backend (NestJS):
 Create an authentication API:
- - POST /api/auth/login: Accepts username and password and returns a mock JWT token if credentials are correct.
+ - POST `/api/auth/login`: Accepts username and password and returns a mock JWT token if credentials are correct.
  - Use hardcoded credentials (e.g., username: admin, password: password123).
  - Create a simple middleware to verify the JWT token for protected routes (can be a mock check). ( nice to have )
 ### Frontend (Next.js):
